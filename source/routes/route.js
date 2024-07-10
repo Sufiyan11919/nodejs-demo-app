@@ -16,6 +16,7 @@ const routes = (app) => {
     // home page
     app.route('/')
         .get(home)
+       
         
     // GET home page.
     app.route('/home')
